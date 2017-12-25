@@ -54,7 +54,12 @@ body{
   background: rgba(232, 115, 6, 0.5);
 }
 
-
+.finJuego{
+  text-align: center;
+  height: 35%;
+  width: 100%;
+  margin-bottom: 50px;
+}
 .buttons{
   height: 10%;
   width: 100%;
