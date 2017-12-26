@@ -7,7 +7,7 @@ $(document).ready(function(){
  		$('#movimientos-text').text('0');
 		animarReinicio();
  		colocarElementos();
- 		iniciarTiempo(00, 05);
+ 		iniciarTiempo(02, 00);
  	});
 
 });
