@@ -55,10 +55,10 @@ body{
 }
 
 .finJuego{
-  text-align: center;
-  height: 35%;
-  width: 100%;
-  margin-bottom: 50px;
+  height: 25%;
+  width: 100% !important;
+  margin-bottom: 25px;
+  text-align: center !important;
 }
 .buttons{
   height: 10%;
@@ -72,10 +72,11 @@ body{
   color: #E8CA06;
 }
 .titulo-over{
+  width: 100%;
   font-family: gameFont;
   font-size: 3em;
-  text-align: center;
   color: #DCFF0E;
+  text-align: center;
 }
 .btn-reinicio{
   background: #E8CA06;

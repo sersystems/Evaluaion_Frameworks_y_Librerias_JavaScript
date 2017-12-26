@@ -7,7 +7,7 @@ $(document).ready(function(){
  		$('#movimientos-text').text('0');
 		animarReinicio();
  		colocarElementos();
- 		iniciarTiempo(02, 00);
+ 		iniciarTiempo(00, 05);
  	});
 
 });
@@ -180,10 +180,11 @@ $(document).ready(function(){
 						$(this).hide();
 					});					
 					$('.panel-score').animate({width: '100%'}, 1000, function(){
-						$(this).append('<div class="finJuego"><h1 class="titulo-over">Juego Terminado</h1></div>');
-						$('.finJuego').insertBefore(this);
-						$('.score').css('margin-bottom','-18%');
-						$('.moves').css('margin-top','-18%');
+						$(this).append('<div id="panelTituloFinal"><h1 class="titulo-over">Juego Terminado</h1></div>');
+						$('#panelTituloFinal').addClass('finJuego');
+						$('#panelTituloFinal').insertBefore(this);
+						$('.score').css('margin-bottom','-50px');
+						$('.moves').css('margin-top','-50px');
 					});
 					$('.time').toggle(1000);
 				}, 1000);
