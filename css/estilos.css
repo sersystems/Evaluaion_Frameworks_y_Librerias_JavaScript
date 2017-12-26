@@ -95,17 +95,16 @@ body{
 .data-info{
   font-size: 1.8em;
 }
+
 div[class^='col']{
   width: 14.28%;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .elemento{
   width: 99.4px;
   height: 96px;
-
 }
